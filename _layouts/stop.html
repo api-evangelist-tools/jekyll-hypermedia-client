@@ -7,6 +7,6 @@ layout: default
 <p><strong>Links:</strong></p>
 <ul>
 {% for link in page.links %}
-  <p>{{ link.self }} - {{ link.href }}</p>
+  <p>{{ link.rel }} - {{ link.href }}</p>
 {% endfor %}
 </ul>
