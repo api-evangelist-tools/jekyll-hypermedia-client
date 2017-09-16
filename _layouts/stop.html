@@ -3,10 +3,27 @@ layout: default
 ---
 <h1>{{ page.properties.name }}</h1>
 <p>{{ page.properties.description }}</p>
- 
-<p><strong>Links:</strong></p>
-<ul>
+
 {% for link in page.links %}
-  <p>{{ link.rel }} - {{ link.href }}</p>
+  {% if link.rel == 'next' %}
+    {% assign next = link.href %}
+  {% endif %}
+  {% if link.rel == 'previous' %}
+    {% assign previous = link.href %}
+  {% endif %}  
+  {% if link.rel == 'line' %}
+    {% assign line = link.href %}
+  {% endif %}  
+  {% if link.rel == 'service' %}
+    {% assign service = link.href %}
+  {% endif %}      
 {% endfor %}
-</ul>
+
+<table width="100%">
+  <tr>
+    <td align="left" width="25%">{% if previous %}<a href="{{ previous }}"><< Previous</a>{% endif %}/td>
+    <td align="center" width="25%">{% if service %}<a href="{{ service }}">Services</a>{% endif %}</td>
+    <td align="center" width="25%">{% if line %}<a href="{{ line }}">Line</a>{% endif %}</td>
+    <td align="right" width="25%">{% if next %}<a href="{{ next }}">Next >></a>{% endif %}</td>
+  </tr>
+</table>

@@ -45,9 +45,15 @@ links:
       - self
     href: /design/requests/host/
   - rel:
+      - service
+    href: /design/      
+  - rel:
+      - line
+    href: /design/requests/          
+  - rel:
       - previous
-    href: /design/requests/stop/
+    href: /design/requests/ssl/
   - rel:
       - next
-    href: /design/requests/stop/
+    href: /design/requests/path/
 ---
