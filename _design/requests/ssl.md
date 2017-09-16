@@ -1,4 +1,6 @@
 ---
+layout: stop
+---
 class:
   - stop
 rel:

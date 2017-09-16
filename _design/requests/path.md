@@ -1,31 +1,33 @@
 ---
+layout: stop
+---
 class:
   - stop
 rel:
   - /rels/stop  
 properties:
-  name: Host
-  description: Put sufficient thought into what the baseURL will be for making API calls. Increasingly this element can also be dynamic, like other aspects of API design.
+  name: Path
+  description: Consider how you craft your resources across all API operations. I do not subscribe to specific philosophies around this, just trying to provide a framework to think about this in.
 entities:
   - class:
       - image
     rel:
       - /rels/image
     properties:
-      - name: SSL Image
+      - name: path Image
         url: /image/
   - class:
       - video
     rel:
       - /rels/video
     properties:
-      - name: SSL Video
+      - name: path Video
         url: /video/
         embed: <embed>
     links:
       - rel:
           - self
-        href: /design/requests/host/
+        href: http://api.x.io/customers/pj123
 actions:
   - name: view-item
     title: View Item
@@ -35,14 +37,14 @@ actions:
     fields:
       - name: name
         type: hidden
-        value: 'SSL'
+        value: 'path'
       - name: user
         type: hidden
         value: ''        
 links:
   - rel:
       - self
-    href: /design/requests/host/
+    href: /design/requests/path/
   - rel:
       - previous
     href: /design/requests/stop/
