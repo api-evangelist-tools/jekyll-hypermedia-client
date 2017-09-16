@@ -5,8 +5,8 @@ class:
 rel:
   - /rels/stop  
 properties:
-  name: Path
-  description: Consider how you craft your resources across all API operations. I do not subscribe to specific philosophies around this, just trying to provide a framework to think about this in.
+  name: Body
+  description: Use the body of each request in a consistent way across API operations. The body provides much more room for more structured data and content.
 entities:
   - class:
       - image
@@ -43,7 +43,7 @@ actions:
 links:
   - rel:
       - self
-    href: /design/requests/path/
+    href: /design/requests/body/
   - rel:
       - area
     href: /design/      
@@ -52,8 +52,8 @@ links:
     href: /design/requests/          
   - rel:
       - previous
-    href: /design/requests/host/
+    href: /design/requests/headers/
   - rel:
       - next
-    href: /design/requests/path/
+    href: /design/requests/versioning/
 ---

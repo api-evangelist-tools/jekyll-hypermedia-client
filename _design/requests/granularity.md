@@ -5,8 +5,8 @@ class:
 rel:
   - /rels/stop  
 properties:
-  name: Path
-  description: Consider how you craft your resources across all API operations. I do not subscribe to specific philosophies around this, just trying to provide a framework to think about this in.
+  name: Granularity
+  description: Always be aware of the granularity of your API endpoints, and each resource being exposed, keeping everything as small as possible.
 entities:
   - class:
       - image
@@ -52,8 +52,8 @@ links:
     href: /design/requests/          
   - rel:
       - previous
-    href: /design/requests/host/
+    href: /design/requests/field-selection/
   - rel:
       - next
-    href: /design/requests/path/
+    href: /design/requests/relationship/
 ---

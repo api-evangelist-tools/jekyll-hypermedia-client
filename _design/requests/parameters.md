@@ -5,8 +5,8 @@ class:
 rel:
   - /rels/stop  
 properties:
-  name: Path
-  description: Consider how you craft your resources across all API operations. I do not subscribe to specific philosophies around this, just trying to provide a framework to think about this in.
+  name: Parameters
+  description: Standardize how parameters are crafted as part of API operations, using intuitive and consistent approaches.
 entities:
   - class:
       - image
@@ -52,8 +52,8 @@ links:
     href: /design/requests/          
   - rel:
       - previous
-    href: /design/requests/host/
+    href: /design/requests/verbs/
   - rel:
       - next
-    href: /design/requests/path/
+    href: /design/requests/headers/
 ---

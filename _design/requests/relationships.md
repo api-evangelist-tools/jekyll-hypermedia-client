@@ -5,8 +5,8 @@ class:
 rel:
   - /rels/stop  
 properties:
-  name: Path
-  description: Consider how you craft your resources across all API operations. I do not subscribe to specific philosophies around this, just trying to provide a framework to think about this in.
+  name: Relationships
+  description: Consider how relationships between resources will be handled, and establish a single approach for doing across API operations.
 entities:
   - class:
       - image
@@ -43,7 +43,7 @@ actions:
 links:
   - rel:
       - self
-    href: /design/requests/path/
+    href: /design/requests/relationship/
   - rel:
       - area
     href: /design/      
@@ -52,8 +52,5 @@ links:
     href: /design/requests/          
   - rel:
       - previous
-    href: /design/requests/host/
-  - rel:
-      - next
-    href: /design/requests/path/
+    href: /design/requests/granularity/
 ---

@@ -5,8 +5,8 @@ class:
 rel:
   - /rels/stop  
 properties:
-  name: Path
-  description: Consider how you craft your resources across all API operations. I do not subscribe to specific philosophies around this, just trying to provide a framework to think about this in.
+  name: Action
+  description: Allow for standard actions to be taken across resource, but also reflect how APIs will be experienced, providing meaningful action to be taken around any API.
 entities:
   - class:
       - image
@@ -52,8 +52,8 @@ links:
     href: /design/requests/          
   - rel:
       - previous
-    href: /design/requests/host/
+    href: /design/requests/path/
   - rel:
       - next
-    href: /design/requests/path/
+    href: /design/requests/verbs/
 ---

@@ -5,8 +5,8 @@ class:
 rel:
   - /rels/stop  
 properties:
-  name: Path
-  description: Consider how you craft your resources across all API operations. I do not subscribe to specific philosophies around this, just trying to provide a framework to think about this in.
+  name: Sorting
+  description: Establish a single approach to how API responses can be sorted, and use across all API resources.
 entities:
   - class:
       - image
@@ -52,8 +52,8 @@ links:
     href: /design/requests/          
   - rel:
       - previous
-    href: /design/requests/host/
+    href: /design/requests/filtering/
   - rel:
       - next
-    href: /design/requests/path/
+    href: /design/requests/field-selection/
 ---
