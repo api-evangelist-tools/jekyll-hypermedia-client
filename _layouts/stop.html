@@ -5,6 +5,8 @@ layout: default
 <p>{{ page.properties.description }}</p>
 
 {% for link in page.links %}
+  {{ link.rel }} <br />
+  {{ link.href }} <br /><br />
   {% if link.rel == 'next' %}
     {% assign next = link.href %}
   {% endif %}
