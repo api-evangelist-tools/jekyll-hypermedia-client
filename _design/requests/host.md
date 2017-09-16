@@ -14,14 +14,14 @@ entities:
       - /rels/image
     properties:
       - name: SSL Image
-        url: /image/
+        url: /images/ssl.jpg
   - class:
       - video
     rel:
       - /rels/video
     properties:
       - name: SSL Video
-        url: /video/
+        url: /video/video.mp4
         embed: <embed>
     links:
       - rel:
@@ -45,7 +45,7 @@ links:
       - self
     href: /design/requests/host/
   - rel:
-      - service
+      - area
     href: /design/      
   - rel:
       - line

@@ -45,7 +45,7 @@ links:
       - self
     href: /design/requests/ssl/
   - rel:
-      - service
+      - area
     href: /design/      
   - rel:
       - line
