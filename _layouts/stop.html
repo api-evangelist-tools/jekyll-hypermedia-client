@@ -9,15 +9,19 @@ layout: default
   {{ link.href }} <br /><br />
   {% if link.rel == 'next' %}
     {% assign next = link.href %}
+    next: {{ next }}<br />
   {% endif %}
   {% if link.rel == 'previous' %}
     {% assign previous = link.href %}
+    previous: {{ previous }}<br />
   {% endif %}  
   {% if link.rel == 'line' %}
     {% assign line = link.href %}
+    line: {{ line }}<br />
   {% endif %}  
   {% if link.rel == 'service' %}
     {% assign service = link.href %}
+    service: {{ service }}<br />
   {% endif %}      
 {% endfor %}
 
