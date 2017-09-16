@@ -12,16 +12,16 @@ entities:
     rel:
       - /rels/image
     properties:
-      name: SSL Image
+      - name: SSL Image
         url: /image/
   - class:
       - video
     rel:
       - /rels/video
     properties:
-      name: SSL Video
-      url: /video/
-      embed: <embed>
+      - name: SSL Video
+        url: /video/
+        embed: <embed>
     links:
       - rel:
           - self
