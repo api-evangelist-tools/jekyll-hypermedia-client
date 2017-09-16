@@ -1,6 +1,5 @@
 ---
 layout: stop
----
 class:
   - stop
 rel:
@@ -51,3 +50,4 @@ links:
   - rel:
       - next
     href: /design/requests/stop/
+---
