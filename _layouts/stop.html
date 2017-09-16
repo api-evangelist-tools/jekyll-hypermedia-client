@@ -4,24 +4,19 @@ layout: default
 <h1>{{ page.properties.name }}-2</h1>
 <p>{{ page.properties.description }}</p>
 
+<!-- Building the links. Wish they were rel objects -->
 {% for link in page.links %}
-  {{ link.rel }} <br />
-  {{ link.href }} <br /><br />
   {% if link.rel contains 'next' %}
     {% assign next = link.href %}
-    next: {{ next }}<br />
   {% endif %}
   {% if link.rel contains 'previous' %}
     {% assign previous = link.href %}
-    previous: {{ previous }}<br />
   {% endif %}  
   {% if link.rel contains 'line' %}
     {% assign line = link.href %}
-    line: {{ line }}<br />
   {% endif %}  
   {% if link.rel contains 'service' %}
     {% assign service = link.href %}
-    service: {{ service }}<br />
   {% endif %}      
 {% endfor %}
 
