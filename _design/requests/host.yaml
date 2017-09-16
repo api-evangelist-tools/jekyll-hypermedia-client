@@ -1,4 +1,3 @@
----
 class:
   - stop
 rel:
@@ -49,3 +48,4 @@ links:
   - rel:
       - next
     href: /design/requests/stop/
+---
