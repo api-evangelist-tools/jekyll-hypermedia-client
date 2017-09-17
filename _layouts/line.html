@@ -4,6 +4,6 @@ layout: default
 <h1>{{ page.properties.name }}</h1>
 <ul>
   {%- for line in page.entities -%}
-    <li>{{ line.properties }} - {{ line.properties.name }}</li>
+    <li>{{ line.properties }} - {{ line.properties["name"] }}</li>
   {%- endfor -%}
 </ul>
