@@ -5,8 +5,8 @@ class:
 rel:
   - /rels/stop  
 properties:
-  name: Path
-  description: Consider how you craft your resources across all API operations. I do not subscribe to specific philosophies around this, just trying to provide a framework to think about this in.
+  name: Field Selection
+  description: Consider providing a way that API consumers can select which fields are included in API response
 entities:
   - class:
       - image
