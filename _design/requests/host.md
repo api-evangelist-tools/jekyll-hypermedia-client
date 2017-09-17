@@ -46,7 +46,7 @@ links:
     href: /design/requests/host/
   - rel:
       - area
-    href: /design/      
+    href: /design/area/ 
   - rel:
       - line
     href: /design/requests/          

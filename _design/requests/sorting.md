@@ -46,7 +46,7 @@ links:
     href: /design/requests/path/
   - rel:
       - area
-    href: /design/      
+    href: /design/area/      
   - rel:
       - line
     href: /design/requests/          
