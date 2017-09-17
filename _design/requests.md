@@ -5,8 +5,8 @@ class:
 rel:
   - /rels/stop  
 properties:
-  name: Action
-  description: Allow for standard actions to be taken across resource, but also reflect how APIs will be experienced, providing meaningful action to be taken around any API.
+  name: Requests
+  description: This line is all about thinking through the design of a web API. Crafting an API request interface that will be intuitive, and follow healthy practices, so that API consumers can go from discovery, to learning, and to successful API calls as quickly as possible.
 entities:
   - class:
       - stop
