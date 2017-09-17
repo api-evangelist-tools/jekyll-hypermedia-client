@@ -52,8 +52,8 @@ links:
     href: /design/requests/          
   - rel:
       - previous
-    href: /design/requests/host/
+    href: /design/requests/sorting/
   - rel:
       - next
-    href: /design/requests/path/
+    href: /design/requests/granularity/
 ---
