@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<h1>{{ page.title }}</h1>
+<h1>{{ page.properties.name }}</h1>
 
 <style>
 #circle {
@@ -22,9 +22,8 @@ layout: default
   border: 1px solid #000;
   }
 </style>
-HERE: {{ site.design }}<br />
 <table>
-  {%- for line in site.design.requests -%}
+  {%- for line in page.entities -%}
   <tr>
     <td width="50" height="50" style="background-color:#FFF;">
       <div id="circle"></div>
