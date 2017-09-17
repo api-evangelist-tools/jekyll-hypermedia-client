@@ -5,7 +5,7 @@ layout: default
 <ul>
   {%- for line in page.entities -%}
     {%- assign properties = line.properties -%}
-    {%- assign name = properties.name | replace: '{"name"=>"','"}' -%}
+    {%- assign name = properties | replace: '{"name"=>"','"}' -%}
     <li>{{ line.properties }} - {{ properties }} - {{ name }}</li>
   {%- endfor -%}
 </ul>
