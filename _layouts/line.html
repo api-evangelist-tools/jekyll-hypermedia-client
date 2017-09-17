@@ -2,40 +2,8 @@
 layout: default
 ---
 <h1>{{ page.properties.name }}</h1>
-
-<style>
-#circle {
-   width: 50px;
-   height: 50px;
-   -webkit-border-radius: 25px;
-   -moz-border-radius: 25px;
-   border-radius: 25px;
-   background: red;
- }
- 
-#line {
-  background: red;
-  width: 30px;
-  height: 100%:
-  margin-left: 10px;
-  margin-right: 10px;
-  border: 1px solid #000;
-  }
-</style>
-<table>
+<ul>
   {%- for line in page.entities -%}
-  {{ line }}<br />
-  <tr>
-    <td width="50" height="50" style="background-color:#FFF;">
-      <div id="circle"></div>
-    </td>
-    <td width="250">{{ line.properties.name }}</td>
-  </tr>
-  <tr>
-    <td width="50" height="200">
-      <div id="line" height="100%"><br /></div>
-    </td>
-    <td width="250"></td>
-  </tr>  
+    <li>{{ line.properties.name }}</li>
   {%- endfor -%}
-</table>
+</ul>
