@@ -24,22 +24,18 @@ layout: default
 </style>
 
 <table>
+  {%- for line in site[page.line] -%}
   <tr>
     <td width="50" height="50" style="background-color:#FFF;">
       <div id="circle"></div>
     </td>
-    <td width="250"></td>
+    <td width="250">{{ line.properties.name }}</td>
   </tr>
   <tr>
     <td width="50" height="200">
-      <div id="line"></div>
+      <div id="line" height="100%"><br /></div>
     </td>
     <td width="250"></td>
   </tr>  
-  <tr>
-    <td width="50" height="50" style="background-color:#FFF;">
-      <div id="circle"></div>
-    </td>
-    <td width="250"></td>
-  </tr>  
+  {%- endfor -%}
 </table>
