@@ -55,5 +55,5 @@ links:
     href: /design/requests/field-selection/
   - rel:
       - next
-    href: /design/requests/relationship/
+    href: /design/requests/relationships/
 ---
