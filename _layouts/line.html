@@ -6,6 +6,6 @@ layout: default
   {%- for line in page.entities -%}
     {%- assign properties = line.properties -%}
     {%- assign name = properties.name -%}
-    <li>{{ line.properties }} - {{ name }}</li>
+    <li>{{ line.properties }} - {{ properties }} - {{ name }}</li>
   {%- endfor -%}
 </ul>
