@@ -22,9 +22,9 @@ layout: default
   border: 1px solid #000;
   }
 </style>
-HERE: {{ site.[page.area] }}<br />
+
 <table>
-  {%- for line in site.[page.area].[page.line] -%}
+  {%- for line in site[page.area][page.line] -%}
   <tr>
     <td width="50" height="50" style="background-color:#FFF;">
       <div id="circle"></div>
