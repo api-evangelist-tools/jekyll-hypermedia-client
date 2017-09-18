@@ -1,5 +1,5 @@
 ---
-layout: line
+layout: area
 class:
   - line
 rel:
