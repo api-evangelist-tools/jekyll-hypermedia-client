@@ -2,7 +2,7 @@
 layout: default
 ---
 <h1>{{ page.title }}</h1>
-<p>{{ page.properties.description }}</[>
+<p>{{ page.properties.description }}</li>
 <ul>
   {%- for line in page.entities -%}
     {%- assign properties = line.properties -%}
@@ -17,4 +17,5 @@ layout: default
     {% endfor %}  
     
     <li><a href="{{ self }}">{{ name }}</a></li>
-  {%- end if -%}
+  {%- endfor -%}
+</ul>
