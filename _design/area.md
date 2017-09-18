@@ -1,7 +1,7 @@
 ---
 layout: area
 class:
-  - line
+  - area
 rel:
   - /rels/stop  
 properties:
@@ -11,13 +11,13 @@ entities:
   - class:
       - line
     rel:
-      - /rels/line
+      - /rels/area
     properties:
       - name: Requests
     links:
       - rel:
           - self
-        href: /design/                
+        href: /design/requests/               
 links:
   - rel:
       - self
