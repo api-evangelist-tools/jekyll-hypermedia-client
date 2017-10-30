@@ -1,3 +1,3 @@
-# Names
+# Jekyll Hypermedia Client
 
-This is a dataset of names.
+This is a working Jekyll Hypermedia client
