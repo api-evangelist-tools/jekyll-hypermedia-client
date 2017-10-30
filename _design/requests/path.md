@@ -6,7 +6,8 @@ rel:
   - /rels/stop  
 properties:
   name: Path
-  description: Consider how you craft your resources across all API operations. I do not subscribe to specific philosophies around this, just trying to provide a framework to think about this in.
+  description: The API path represents the resource you are working to make available via an API. Think about how you craft this path. Of course you should be considering RESTful principles here, but you should be thinking about how you can make it intuitive, using plain language, and something that represents what you are trying to deliver. These resources are meant for other systems and applications to put to use, but before these applications can make sense of them, a human has to make sense of them. Think about how your path will look to other users, and how it will look to others who aren't familiar with your API, and whether or not it will make sense beyond your internal group.
+  image: https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-path.png
 entities:
   - class:
       - image

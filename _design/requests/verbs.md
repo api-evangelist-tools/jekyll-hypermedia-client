@@ -6,7 +6,7 @@ rel:
   - /rels/stop  
 properties:
   name: Verbs
-  description: Learn about, and put all HTTP verbs to use when designing APIs.There is more than just GET, and even more than just POST, PUT, and DELETE.
+  description: HTTP verbs are the cornerstone of communicating using an API. The most common verbs GET, POST, PUT, and DELETE should be well used--don't just use GET. Make things readable, as well as writable. Then make sure and learn about the other verbs like PATCH, and OPTIONS. These verbs won't accomplish everything you are looking to do, but when you combine with your API paths, there are unlimited possibilities of what you can accomplish with your APIs. Use your verbs, and understand why they are an important aspect of your HTTP toolbox.
 entities:
   - class:
       - image

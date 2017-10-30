@@ -2,6 +2,7 @@
 layout: default
 ---
 <h2>{{ page.properties.name }}</h2>
+<p><img src="{{ page.properties.image }}" width="35%" align="right" /></p>
 <p>{{ page.properties.description }}</p>
 
 <!-- Building the links. Wish they were rel objects -->
@@ -11,13 +12,13 @@ layout: default
   {% endif %}
   {% if link.rel contains 'previous' %}
     {% assign previous = link.href %}
-  {% endif %}  
+  {% endif %}
   {% if link.rel contains 'line' %}
     {% assign line = link.href %}
-  {% endif %}  
+  {% endif %}
   {% if link.rel contains 'area' %}
     {% assign area = link.href %}
-  {% endif %}      
+  {% endif %}
 {% endfor %}
 
 <table width="100%">
